@@ -7,7 +7,12 @@ class UserTableRow extends React.Component {
   render() {
     // Destructuring objects from props.
     const { id, name, username, email, address } = this.props;
-
+    // Check address fields, cannot assume address is an object in all cases.
+    const street = address && address.street;
+    const suite = address && address.suite;
+    const state = address && address.state;
+    const city = address && address.city;
+    const zipCode = address && address.zipCode;
     return (
       <tr>
         {/* Router link to details page */}
@@ -23,7 +28,13 @@ class UserTableRow extends React.Component {
           <EmailLink email={email}>{email}</EmailLink>
         </td>
         <td className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom">
-          <FormattedAddress address={address} />
+          <FormattedAddress
+            street={street}
+            suite={suite}
+            city={city}
+            state={state}
+            zipCode={zipCode}
+          />
         </td>
       </tr>
     );

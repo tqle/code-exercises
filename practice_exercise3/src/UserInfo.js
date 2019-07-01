@@ -27,6 +27,12 @@ class UserInfo extends React.Component {
       website,
       company
     } = this.props;
+    // Check address fields, cannot assume address is an object in all cases.
+    const street = address && address.street;
+    const suite = address && address.suite;
+    const state = address && address.state;
+    const city = address.city && address.city;
+    const zipCode = address && address.zipCode;
 
     /* NOTE: the sample mock data may have missing state, so add
     a default one for now */
@@ -64,7 +70,13 @@ class UserInfo extends React.Component {
             <div className="display-flex flex-row margin-bottom">
               <div className="bold small-width">Address:</div>
               <div className="margin-left">
-                <FormattedAdress address={address} />
+                <FormattedAdress
+                  street={street}
+                  suite={suite}
+                  city={city}
+                  state={state}
+                  zipCode={zipCode}
+                />
               </div>
             </div>
             {/* Telephone */}

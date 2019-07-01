@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<User /> renders correctly 1`] = `
+exports[`<User /> renders correctly with address object 1`] = `
 <div>
   <a
     href="/details/12345"
@@ -31,7 +31,43 @@ exports[`<User /> renders correctly 1`] = `
     , 
     FL
     , 
-    92998-3874
+    
+  </address>
+</div>
+`;
+
+exports[`<User /> renders correctly with address string 1`] = `
+<div>
+  <a
+    href="/details/12345"
+    onClick={[Function]}
+  >
+    <h1>
+      John Test
+    </h1>
+  </a>
+  <div>
+    johnTest
+  </div>
+  <a
+    href="mailto:johntest@sometest.com"
+    title="johntest@sometest.com"
+  >
+    johntest@sometest.com
+  </a>
+  <address
+    className="normal-style"
+  >
+    Kulas Light
+     
+    Apt. 556
+     
+    <br />
+    Gwenborough
+    , 
+    FL
+    , 
+    
   </address>
 </div>
 `;

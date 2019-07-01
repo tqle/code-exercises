@@ -8,7 +8,7 @@
  * @param {string=} company
  */
 export const validateCompanyName = company => {
-  let validCompanyName;
+  let validCompanyName = "";
   if (company) {
     validCompanyName = company;
   } else {

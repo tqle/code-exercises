@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormattedAddress /> renders an empty address 1`] = `
+<address
+  className="normal-style"
+>
+  
+   
+  
+   
+  <br />
+  
+  , 
+  FL
+  , 
+  
+</address>
+`;
+
+exports[`<FormattedAddress /> renders correctly 1`] = `
+<address
+  className="normal-style"
+>
+  Kulas Light
+   
+  Apt. 556
+   
+  <br />
+  Gwenborough
+  , 
+  FL
+  , 
+  
+</address>
+`;
+
+exports[`<FormattedAddress /> renders correctly with no suite 1`] = `
+<address
+  className="normal-style"
+>
+  Kulas Light
+   
+  
+   
+  <br />
+  Gwenborough
+  , 
+  FL
+  , 
+  
+</address>
+`;
