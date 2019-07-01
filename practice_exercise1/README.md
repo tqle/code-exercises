@@ -32,5 +32,5 @@ Run the automated tests for this system using jest
 ### Run Unit test with Mocha
 
 ```
-npm test
+npm test or npm run test
 ```
