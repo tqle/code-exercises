@@ -19,7 +19,7 @@ npm install or npm i
 
 ## Starting development 
  
-Run npm to run the box.html file on the commmand line, eithe open the file in the browser or startup a local server using Parcel which will open the box.html example. See package.json.
+Run npm to run the box.html file on the commmand line, either opening the file in the browser or startup a local server using Parcel which will open the box.html example. See package.json.
 
 ```
 npm run dev
