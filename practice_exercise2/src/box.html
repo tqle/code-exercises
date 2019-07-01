@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice Exercise 2</title>
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Use semantic html markup for accessibilty and screen readers-->
+    <div id="box" class="boxContainer box-shadow neutral-background-color box-center display-flex flex-col">
+    <header class="header display-flex primary-brand-gradient border-top border-left border-right">
+        <h1 class="neutral-font-color padding-left">OpenShift</h1>
+        <nav class="nav display-flex justify-content-flex-end flex-grow-1">
+            <ul class="menu display-flex flex-wrap justify-content-flex-end list-style-none no-padding no-margin">
+                <li class="tab-item text-align-center thin border-left-lighten">
+                    <a class="tab-link neutral-font-color" href="#">Item</a>
+                </li>
+                <li class="tab-item text-align-center thin border-left-lighten">
+                    <a class="tab-link neutral-font-color" href="#">Item</a>
+                </li>
+                <li class="tab-item text-align-center thin border-left-lighten">
+                    <a class="tab-link neutral-font-color" href="#">Item</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="padding-left padding-right">
+        <h2>Panel content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt esse dolore eu deserunt 
+            mollit anim id est laborum.
+        </p>
+        <div class="display-flex flex-wrap no-padding no-margin table-two-columns table-collapse margin-bottom">
+            <div class="table-column semi-bold">Case ID:</div>
+            <div class="table-column text-align-left small-margin-bottom">Case002b</div>
+            <div class="table-column semi-bold">Case Name:</div>
+            <div class="table-column text-align-left small-margin-bottom">Development case instance</div>
+            <div class="table-column semi-bold">Status:</div>
+            <div class="table-column text-align-left small-margin-bottom">
+                <span class="active-status small-padding-top small-padding-left small-padding-right small-padding-bottom neutral-font-color border-radius">Active</span>
+            </div>
+            <div class="table-column semi-bold">State:</div>
+            <div class="table-column text-align-left margin-bottom">Started on March 16th, 2017</div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>

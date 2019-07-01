@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div>
+  <a
+    aria-current="page"
+    className="margin-left"
+    href="/"
+    onClick={[Function]}
+  >
+    Back to Users
+  </a>
+</div>
+`;

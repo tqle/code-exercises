@@ -1,0 +1,46 @@
+{
+  "name": "practice_exercise3",
+  "version": "1.0.0",
+  "description": "Practice Excercise 3",
+  "main": "App.js",
+  "scripts": {
+    "format": "prettier  --write \"src/**/*.{js,jsx,css.html,json}\"",
+    "format:check": "prettier  --check-different \"src/**/*.{js,jsx,css.html,json}\"",
+    "lint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "test": "jest",
+    "test:update": "jest -u",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "dev": "parcel src/index.html"
+  },
+  "author": "Tien Le",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^6.0.0",
+    "eslint-config-prettier": "^5.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.12.3",
+    "prettier": "^1.18.2",
+    "react-test-renderer": "^16.8.6",
+    "yarn": "^1.16.0"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "axios": "^0.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}

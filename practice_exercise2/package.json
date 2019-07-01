@@ -1,0 +1,15 @@
+{
+  "name": "practice_exercise2",
+  "version": "1.0.0",
+  "description": "Practice Excercise 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/box.html"
+  },
+  "author": "Tien Le",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  }
+}

@@ -1,0 +1,67 @@
+Open Ended Questions
+Please answer the 2 questions from each of these 3 sections (and complete the 3 practical
+exercises below):
+
+Section 1 - Design & Development
+Q1
+Could you outline what you would consider to be the important considerations If you were asked to 
+develop a web application that could potentially be used by thousands of users?
+
+Answer 1:
+The most important considerations to develop a web application would be performance, security, speed, 
+caching, and no errors if possible.
+
+The web app should be quick to load. Any additional calls or backend processes
+should be delayed or loaded in the background.  Caching and memory is critical.  
+Static content like images and static text can be cached, compressed, minified or utilize CDNs. 
+The application should be throughly tested by QA and by devs before it goes live to production.  
+The application should be also be load tested to see how well the application holds up with large number of users and requests.
+The web application must be secured. It must protect the customer as well as the provider from common
+ cross attacks or disruptions.
+
+Q2
+What techniques do you employ to keep up-to-date with the rapid pace of progress in the field frontend development?  
+
+Answer 2:
+I subscribe to web courses and tutorials like Frontend Masters. They are on the cutting edge of new technologies from 
+top developers from major software companies.  I read blogs and articles from css-tricks and a list apart, watch you-tube conferences, and 
+and search Github projects.
+Also talking to my peers and co-workers is another valuable resource. We share and learn from each other.
+
+How do you choose which technologies are worth taking the time to learn more about?
+
+I try to also go to conferences to see what direction the front end development community is heading towards.
+Job postings also are good indicators on what technologies and tech stacks are popular.
+
+Section 2 - & Deployment 
+
+Q1
+Describe the approach you take in testing your applications. 
+
+Answer 1:
+I like to write small lines of code and test the code immediately in my application. 
+It can be simple command like functions or a simple html prototype.  
+Having a framework with a built-in test runner and testing framework speeds up the process for automated tests.
+I try to make it work first and then write unit tests later. Having feedback and code reviews on my code and unit
+test makes the process easier and improves the quality of the code.  
+Also pairing with a QA dev engineer also helps the process.
+
+
+Q2
+What do you value in a code base? 
+I value a good code base that is well-thought out, well-supported, documented, and fits the need of the project or business.
+It should be easy to understand for entry level developers to advanced professionals.  
+It should be constantly evolving and questioned as new requirements or issues arise.
+
+Section 3 - General
+Q1
+What do you find most exciting or interesting about working in the software development field?
+I try to find technologies that I'm passionate about, especially when it comes to UI or web development.
+I want to create well-designed applications that are empathetic and accessible to all users.
+
+Q2
+In your career to date, what are you most proud of and why?
+I'm very proud of my tenure at SAS. We were able to create and innovate a large component UI framework that the entire company can use 
+it the products. We were able to get the framework in production and use within the first year. The library was accessible, re-usable, and was challenging. No two products were alike and each project created new challenges
+and questions on how to maintain a large framework. I learned how to be better developer from working closely with designers, engineers, developers, QA and project teams of all levels.
+The most important thing I learned was empathy, patience, and to listen to the needs of my co-workers and consumers.

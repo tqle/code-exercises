@@ -1,0 +1,117 @@
+/*
+* Source: http://overpass-30e2.kxcdn.com/overpass.css
+* See: http://overpassfont.org
+* Updated to included OTF as default. Usually there are other falbacks for older
+* browsers for .eot, .woff, .ttf, etc...
+*/
+
+@font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-thin.otf') format('opentype'); /* Open Type Default */
+         font-weight: 200;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-thin-italic.otf') format('opentype');  /* Open Type Default */
+         font-weight: 200;
+         font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-extralight.otf') format('opentype');  /* Open Type Default */
+         font-weight: 300;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-extralight-italic.otf') format('opentype');  /* Open Type Default */
+         font-weight: 300;
+         font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-light.otf') format('opentype');  /* Open Type Default */
+         font-weight: 400;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-light-italic.otf') format('opentype');
+         font-weight: 400;
+         font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-regular.otf') format('opentype');
+         font-weight: 500;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-italic.otf') format('opentype');
+         font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-semibold.otf') format('opentype');
+         font-weight: 600;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-semibold-italic.otf') format('opentype');
+         font-weight: 600;
+         font-style: italic;
+  }
+ 
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-bold.otf') format('opentype');
+         font-weight: 700;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-bold-italic.otf') format('opentype');
+         font-weight: 700;
+         font-style: italic;
+  }
+ 
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-extrabold-italic.otf') format('opentype');
+         font-weight: 800;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-extrabold-italic.otf') format('opentype');
+         font-weight: 800;
+         font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-heavy.otf') format('opentype');
+         font-weight: 900;
+         font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'overpass';
+    src: url('fonts/overpass-heavy-italic.otf') format('opentype');
+         font-weight: 900;
+         font-style: italic;
+  }

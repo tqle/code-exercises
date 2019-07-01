@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<div>
+  <div
+    className="display-flex flex-col container-border neutral-background-color margin-top padding-left padding-right"
+  >
+    <header>
+      <h1 />
+    </header>
+    <section>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          UserName:
+        </div>
+        <div
+          className="margin-left"
+        />
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          E-mail:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <a
+            href="mailto:"
+          >
+            
+          </a>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Address:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <address
+            className="normal-style"
+          >
+            
+             
+            
+             
+            <br />
+            
+            , 
+            FL
+            , 
+            
+          </address>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Phone:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <a
+            href="tel:"
+            title="Telephone:"
+          />
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Web Site:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <a
+            href=""
+            title="URL:"
+          >
+            
+          </a>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Company:
+        </div>
+        <div
+          className="margin-left"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Catch Phrase:
+        </div>
+        <div
+          className="margin-left"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          BS:
+        </div>
+        <div
+          className="margin-left"
+        >
+          
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

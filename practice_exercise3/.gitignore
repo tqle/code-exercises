@@ -1,0 +1,10 @@
+node_modules
+.cache/
+dist/
+.env
+.DS_Store
+coverage/
+.vscode/
+
+# jest docs states test snapshots should be stored and committed not ignored
+# https://jestjs.io/docs/en/snapshot-testing.html#should-snapshot-files-be-committed

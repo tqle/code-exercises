@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<tr>
+  <td
+    className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+  >
+    <a
+      href="/details/undefined"
+      onClick={[Function]}
+    >
+      <h1 />
+    </a>
+  </td>
+  <td
+    className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+  />
+  <td
+    className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+  >
+    <a
+      href="mailto:"
+    >
+      
+    </a>
+  </td>
+  <td
+    className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+  >
+    <address
+      className="normal-style"
+    >
+      
+       
+      
+       
+      <br />
+      
+      , 
+      FL
+      , 
+      
+    </address>
+  </td>
+</tr>
+`;
