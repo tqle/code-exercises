@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneLink /> renders as an anchor when no phone number reference is set 1`] = `
+<a
+  href="#"
+  title=""
+>
+  
+</a>
+`;
+
+exports[`<PhoneLink />renders correctly 1`] = `
+<a
+  href="tel:493-170-9623 x156"
+  title="Telephone:493-170-9623 x156"
+>
+  493-170-9623 x156
+</a>
+`;

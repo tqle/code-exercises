@@ -18,7 +18,7 @@ class FormattedAddress extends React.Component {
     //  User address utility to validate or format any address properties
     // for undefined or nulls.
     let state, street, suite, city, zipcode;
-
+    let buildFormattedAddress = "";
     // Check for empty, undefined, null cases
     state = validateState(address && address.state);
     street = validateStreet(address && address.street);
@@ -26,6 +26,10 @@ class FormattedAddress extends React.Component {
     city = validateCity(address && address.city);
     zipcode = validateZipCode(address && address.zipcode);
 
+    // Build address without site
+    if (street && city && state && zipcode) {
+      buildFormattedAddress = street + <br /> + city + "";
+    }
     return (
       <address className="normal-style">
         {street} {suite} <br />

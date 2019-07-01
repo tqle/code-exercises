@@ -5,7 +5,27 @@ import User from "../User";
 /**
  * Test User snapshot
  */
-test("snapshot", () => {
-  const test = create(<User />);
+test("<User /> renders correctly", () => {
+  const id = "12345";
+  const email = "johntest@sometest.com";
+  const name = "John Test";
+  const userName = "johnTest";
+
+  const address = {
+    street: "Kulas Light",
+    suite: "Apt. 556",
+    city: "Gwenborough",
+    zipcode: "92998-3874"
+  };
+
+  const test = create(
+    <User
+      id={id}
+      name={name}
+      username={userName}
+      email={email}
+      address={address}
+    />
+  );
   expect(test.toJSON()).toMatchSnapshot();
 });

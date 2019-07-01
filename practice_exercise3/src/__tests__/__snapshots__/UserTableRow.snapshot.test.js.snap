@@ -1,27 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot 1`] = `
+exports[`<UserTableRow /> renders correctly 1`] = `
 <tr>
   <td
     className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
   >
     <a
-      href="/details/undefined"
+      href="/details/1"
       onClick={[Function]}
     >
-      <h1 />
+      <h1>
+        Leanne Graham
+      </h1>
     </a>
   </td>
   <td
     className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
-  />
+  >
+    Bret
+  </td>
   <td
     className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
   >
     <a
-      href="mailto:"
+      href="mailto:Sincere@april.biz"
+      title="Sincere@april.biz"
     >
-      
+      Sincere@april.biz
     </a>
   </td>
   <td
@@ -30,16 +35,16 @@ exports[`snapshot 1`] = `
     <address
       className="normal-style"
     >
-      
+      Kulas Light
        
-      
+      Apt. 556
        
       <br />
-      
+      Gwenborough
       , 
       FL
       , 
-      
+      92998-3874
     </address>
   </td>
 </tr>

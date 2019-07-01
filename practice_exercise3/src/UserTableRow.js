@@ -20,7 +20,7 @@ class UserTableRow extends React.Component {
           {username}
         </td>
         <td className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom">
-          <EmailLink email={email} />
+          <EmailLink email={email}>{email}</EmailLink>
         </td>
         <td className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom">
           <FormattedAddress address={address} />

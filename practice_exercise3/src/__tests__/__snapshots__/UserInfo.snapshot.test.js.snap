@@ -1,12 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot 1`] = `
+exports[`<UserInfo /> renders correctly 1`] = `
 <div>
   <div
     className="display-flex flex-col container-border neutral-background-color margin-top padding-left padding-right"
+    id="12345"
   >
     <header>
-      <h1 />
+      <h1>
+        John Test
+      </h1>
     </header>
     <section>
       <div
@@ -19,7 +22,9 @@ exports[`snapshot 1`] = `
         </div>
         <div
           className="margin-left"
-        />
+        >
+          johnTest
+        </div>
       </div>
       <div
         className="display-flex flex-row margin-bottom"
@@ -33,9 +38,167 @@ exports[`snapshot 1`] = `
           className="margin-left"
         >
           <a
-            href="mailto:"
+            href="mailto:johntest@sometest.com"
+            title="johntest@sometest.com"
           >
-            
+            johntest@sometest.com
+          </a>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Address:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <address
+            className="normal-style"
+          >
+            Kulas Light
+             
+            Apt. 556
+             
+            <br />
+            Gwenborough
+            , 
+            FL
+            , 
+            92998-3874
+          </address>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Phone:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <a
+            href="tel:493-170-9623 x156"
+            title="Telephone:493-170-9623 x156"
+          >
+            493-170-9623 x156
+          </a>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Web Site:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <a
+            href="kale.biz"
+            title="URL: kale.biz"
+          >
+            kale.biz
+          </a>
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Company:
+        </div>
+        <div
+          className="margin-left"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          Catch Phrase:
+        </div>
+        <div
+          className="margin-left"
+        >
+          
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          BS:
+        </div>
+        <div
+          className="margin-left"
+        >
+          
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
+
+exports[`<UserInfo /> renders correctly 2`] = `
+<div>
+  <div
+    className="display-flex flex-col container-border neutral-background-color margin-top padding-left padding-right"
+    id="12345"
+  >
+    <header>
+      <h1>
+        John Test
+      </h1>
+    </header>
+    <section>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          UserName:
+        </div>
+        <div
+          className="margin-left"
+        >
+          johnTest
+        </div>
+      </div>
+      <div
+        className="display-flex flex-row margin-bottom"
+      >
+        <div
+          className="bold small-width"
+        >
+          E-mail:
+        </div>
+        <div
+          className="margin-left"
+        >
+          <a
+            href="mailto:johntest@sometest.com"
+            title="johntest@sometest.com"
+          >
+            johntest@sometest.com
           </a>
         </div>
       </div>
@@ -78,9 +241,11 @@ exports[`snapshot 1`] = `
           className="margin-left"
         >
           <a
-            href="tel:"
-            title="Telephone:"
-          />
+            href="tel:555-555-555"
+            title="Telephone:555-555-555"
+          >
+            555-555-555
+          </a>
         </div>
       </div>
       <div
@@ -95,10 +260,10 @@ exports[`snapshot 1`] = `
           className="margin-left"
         >
           <a
-            href=""
-            title="URL:"
+            href="kale.biz"
+            title="URL: kale.biz"
           >
-            
+            kale.biz
           </a>
         </div>
       </div>

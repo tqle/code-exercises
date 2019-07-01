@@ -13,8 +13,14 @@ class EmailLink extends React.Component {
     // Check for empty, undefined, null cases
     let validEmail = validateEmail(email);
     // FUTURE: Write a regex or pattern match if email is valid format
+    let title = validEmail || "";
+    let linkReference = validEmail ? "mailto:" + validEmail : "#";
 
-    return <a href={"mailto:" + validEmail}>{validEmail}</a>;
+    return (
+      <a title={title} href={linkReference}>
+        {validEmail}
+      </a>
+    );
   }
 }
 

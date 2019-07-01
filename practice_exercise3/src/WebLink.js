@@ -13,9 +13,11 @@ class WebLink extends React.Component {
     // Check for empty, undefined, null cases
     let validWebSite = validateWebSite(website);
     // FUTURE: Write a regex or pattern match if website is valid url format
+    let title = validWebSite ? "URL: " + validWebSite : "";
+    let linkReference = validWebSite || "#";
 
     return (
-      <a title={"URL:" + validWebSite} href={validWebSite}>
+      <a title={title} href={linkReference}>
         {validWebSite}
       </a>
     );

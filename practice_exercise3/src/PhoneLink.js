@@ -11,10 +11,12 @@ class PhoneLink extends React.Component {
     // Check for empty, undefined, null cases
     let validPhone = validatePhone(phone);
     // FUTURE: Write a regex or pattern match if phone is valid phone format
+    let title = validPhone ? "Telephone:" + validPhone : "";
+    let linkReference = validPhone ? "tel:" + validPhone : "#";
 
     return (
-      <a title={"Telephone:" + validPhone} href={"tel:" + validPhone}>
-        {phone}
+      <a title={title} href={linkReference}>
+        {validPhone}
       </a>
     );
   }

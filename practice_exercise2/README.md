@@ -8,9 +8,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Must have node version node": ">=8.0.0" for promises to run correctly. 
-See package.json.
-
 ```
 ```
 

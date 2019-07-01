@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Email /> renders as an anchor when no email reference is set 1`] = `
+<a
+  href="#"
+  title=""
+>
+  
+</a>
+`;
+
+exports[`<Email /> renders correctly 1`] = `
+<a
+  href="mailto:Julianne.OConner@kory.org"
+  title="Julianne.OConner@kory.org"
+>
+  Julianne.OConner@kory.org
+</a>
+`;

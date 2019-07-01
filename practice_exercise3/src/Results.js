@@ -74,9 +74,6 @@ class Results extends React.Component {
         ));
       return (
         <div>
-          {/* <pre>
-            <code>{JSON.stringify(this.state, null, 4)}</code>
-          </pre> */}
           <table className="table container-border neutral-background-color">
             <thead>
               <tr>

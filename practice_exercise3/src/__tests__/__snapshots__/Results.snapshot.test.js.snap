@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Results /> renders correctly 1`] = `
+<div>
+  <table
+    className="table container-border neutral-background-color"
+  >
+    <thead>
+      <tr>
+        <th
+          className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+        >
+          Name
+        </th>
+        <th
+          className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+        >
+          UserName
+        </th>
+        <th
+          className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+        >
+          E-mail
+        </th>
+        <th
+          className="cell-border text-align-left small-padding-top small-padding-right small-padding-left small-padding-bottom"
+        >
+          Address
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

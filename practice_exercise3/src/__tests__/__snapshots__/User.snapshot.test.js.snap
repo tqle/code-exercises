@@ -1,32 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snapshot 1`] = `
+exports[`<User /> renders correctly 1`] = `
 <div>
   <a
-    href="/details/undefined"
+    href="/details/12345"
     onClick={[Function]}
   >
-    <h1 />
+    <h1>
+      John Test
+    </h1>
   </a>
-  <div />
+  <div>
+    johnTest
+  </div>
   <a
-    href="mailto:"
+    href="mailto:johntest@sometest.com"
+    title="johntest@sometest.com"
   >
-    
+    johntest@sometest.com
   </a>
   <address
     className="normal-style"
   >
-    
+    Kulas Light
      
-    
+    Apt. 556
      
     <br />
-    
+    Gwenborough
     , 
     FL
     , 
-    
+    92998-3874
   </address>
 </div>
 `;
