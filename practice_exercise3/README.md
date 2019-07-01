@@ -30,5 +30,5 @@ Run the automated tests for this system using jest
 ### Run Test with Jest
 
 ```
-npm run test
+npm test or npm run test
 ```
