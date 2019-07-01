@@ -24,13 +24,3 @@ Run npm to run the box.html file on the commmand line, eithe open the file in th
 ```
 npm run dev
 ```
-
-## Running the tests from command line
-
-Run the automated tests for this system using jest
-
-### Run Unit test with Mocha
-
-```
-npm test
-```
