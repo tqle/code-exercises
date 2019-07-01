@@ -27,8 +27,8 @@ npm run dev
 
 Run the automated tests for this system using jest
 
-### Run Unit test with Jest
+### Run Test with Jest
 
 ```
-jest
+npm run test
 ```
